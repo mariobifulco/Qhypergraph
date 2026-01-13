@@ -1,0 +1,7 @@
+[project]
+name = "qhypergraph"
+version = "0.1.0"
+description = "Using quantum optimization to solve normalized min cut for hypergraphs. The final goal is to extract an embedding for classification tasks."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
