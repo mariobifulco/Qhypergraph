@@ -1,2 +1,7 @@
 *.pdf
 .idea
+.venv
+sketch
+__pycache__
+.DS_Store
+src/dataset

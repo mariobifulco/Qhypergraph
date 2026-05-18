@@ -1,7 +1,13 @@
 [project]
 name = "qhypergraph"
 version = "0.1.0"
-description = "Using quantum optimization to solve normalized min cut for hypergraphs. The final goal is to extract an embedding for classification tasks."
+description = "Using quantum optimization to solve normalized min cut for hypergraphs. The final goal is to cluster the data."
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "dimod>=0.12.21",
+    "dwave-system>=1.34.0",
+    "fastjsonschema>=2.21.2",
+    "hypernetx>=2.4.0",
+    "scikit-learn>=1.7.2",
+]
